@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 0.5rem;
+  max-width: 550px;
+}
+
+.row label {
+  display: block;
+  color: rgb(255, 176, 176);
+  float: left;
+  width: 30%;
+  max-width: 150px;
+}
+
+.row p {
+  width: 70%;
+  max-width: 400px;
+  margin: 0;
+  text-align: center;
+}

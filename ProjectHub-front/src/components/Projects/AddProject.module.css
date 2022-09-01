@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+}
+input {
+  padding: 5px;
+  display: inline-block;
+  background-color: rgb(212, 204, 204);
+  border-radius: 5px;
+}
+form {
+  text-align: center;
+}
+.header {
+  text-align: center;
+}
+.header h2 {
+  background-color: gray;
+}
+.box {
+  margin: auto;
+  padding: 5px;
+  border: black 2px solid;
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+textarea {
+  background-color: rgb(212, 204, 204);
+  border-radius: 12px;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: black;
+  border: 1px solid #9f5ccc;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #2e034b;
+  border-color: #873abb;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #9f5ccc;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #ae82cc;
+}

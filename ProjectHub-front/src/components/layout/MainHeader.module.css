@@ -1,0 +1,14 @@
+.header {
+  border: 2px white solid;
+  background-image: linear-gradient(to right, #000000, #9e0c0c);
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+a,
+li {
+  text-decoration: none;
+  color: aliceblue;
+}
